@@ -86,3 +86,7 @@ fetchMultipleData(urls)
     console.error("Error:", error);
   });
 ```
+
+- ### Async Await vs Promises
+
+  [Async Await vs Promises](/async-programming/ReadMe.md#asyncawait-vs-promises)
