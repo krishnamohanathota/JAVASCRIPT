@@ -59,7 +59,7 @@ doSomethingAsync(arg, function(result) {
 });
 ```
 
-[Callbacks](/async-programming/callbacks/ReadMe.md)
+[Callbacks](/async-programming/callback/ReadMe.md)
 
 [CallBack Hell](/async-programming/callback-hell/ReadMe.md)
 
