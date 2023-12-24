@@ -33,7 +33,7 @@ fetch("https://jsonplaceholder.typicode.com/todos/1")
 
 ### Creating promises
 
-Creating promises are useful when you want to wrap an asynchronous operation or potentially time-consuming operations into a Promise-based interface, m aking it easier to work with.
+Creating promises are useful when you want to wrap an asynchronous operation or potentially time-consuming operations into a Promise-based interface, making it easier to work with.
 
 - **Wrapping a Callback-based API**: If you have a library or API that relies on traditional callbacks but you want to use Promises for better control flow and error handling, you can create a custom Promise to wrap the callback-based API.
 

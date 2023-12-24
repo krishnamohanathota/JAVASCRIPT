@@ -29,9 +29,7 @@ As you can see, the setTimeout function is executed after the main process is fi
 
 In JavaScript, code is executed in a single thread. This means that only one task can be executed at a time. If a task is running, and another task is called, it will have to wait for the previous task to finish before it can be executed.
 
-UI events, such as mouse clicks and key presses, are also queued up in the same queue. If a task is running, and a UI event is called, it will have to wait for the previous task to finish before it can be executed.
-
-This is called blocking the main process(or thread). This can be a problem if the task takes a long time to complete. It will block the main process and make the application unresponsive.
+UI events, such as mouse clicks and key presses, are also queued up in the same queue. If a task is running, and a UI event is called, it will have to wait for the previous task to finish before it can be executed. This is called blocking the main process(or thread). This can be a problem if the task takes a long time to complete. It will block the main process and make the application unresponsive.
 
 What we need is a way for our program to:
 
