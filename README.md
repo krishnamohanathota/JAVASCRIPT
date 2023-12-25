@@ -24,7 +24,7 @@
 
 - ### Async Await vs Callbacks
 
-  [Async Await vs Promises](async-programming/ReadMe.md#asyncawait-vs-callbacks)
+  [Async Await vs Callbacks](async-programming/ReadMe.md#asyncawait-vs-callbacks)
 
 ## Prototypes
 
