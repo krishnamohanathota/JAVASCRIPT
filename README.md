@@ -30,6 +30,10 @@
 
 [Prototypes](/prototypes/ReadMe.md)
 
+## ES6 features
+
+[ES6 Features](/es6-featues/ReadMe.md)
+
 ## Objects
 
 [Objects](/objects/ReadMe.md)

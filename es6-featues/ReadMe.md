@@ -117,7 +117,7 @@ to working with Promises.
 
 [Async/Await](../async-programming/ReadMe.md#asyncawait)
 
-[Async Await vs Promises](../async-programming/ReadMe.md#asyncawait-vs-promises){:target="\_blank"}
+[Async Await vs Promises](../async-programming/ReadMe.md#asyncawait-vs-promises)
 
 ### Map & Set
 
@@ -177,6 +177,39 @@ mySet.forEach((value) => console.log(value));
 ```
 
 [map vs forEach](../examples/ReadMe.md#map-vs-foreach)
+
+### map, filter & reduce methods
+
+The `map` method in JavaScript is used to create a new array by applying a provided function to each element of an existing array.
+
+[map vs forEach](../examples/ReadMe.md#map-vs-foreach)
+
+The `filter` method is used to create a new array containing only the elements that satisfy a specified condition.
+
+```js
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+const newNumbers = numbers.filter((num) => num % 2 === 0);
+
+// [2,4,6,8]
+console.log(newNumbers);
+```
+
+The `reduce` method is used to accumulate the elements of an array into a single value
+
+```js
+const sum = (...nums) => {
+  // the reduce method is used to iterate over the elements of the nums array, accumulating their sum. The initial value of the accumulator (acc) is set to 0.
+
+  // You can omit the second argument of reduce (the initial value) if you're confident that the array nums will always have at least one element
+
+  return nums.reduce((acc, num) => {
+    return acc + num;
+  }, 0);
+};
+
+console.log(sum(1, 2, 3));
+```
 
 ### Default Parameters
 
