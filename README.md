@@ -1,5 +1,19 @@
 # JAVASCRIPT
 
+JavaScript is s synchronous, single-threaded language. This means that code cannot create new threads and run in parallel. It has to wait for other operations to complete and only then can it execute the next line of code.
+
+## Execution Context
+
+[Execution Context](examples/execution-context/ReadMe.md)
+
+## Hoisting
+
+[Hoisting](examples/execution-context/ReadMe.md#hoisting)
+
+## Closure
+
+[Closure](examples/execution-context/ReadMe.md#closures)
+
 ## Async Programming
 
 - ### Callbacks
