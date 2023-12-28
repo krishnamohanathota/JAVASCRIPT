@@ -59,3 +59,8 @@ JavaScript is s synchronous, single-threaded language. This means that code cann
 #### Inheritance
 
 [Inheritance](/inheritance/ReadMe.md)
+
+## ES6 comapatibility table
+
+[ES6 Compatibilty Table](https://compat-table.github.io/compat-table/es6/)
+
