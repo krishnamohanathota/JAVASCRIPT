@@ -64,3 +64,6 @@ JavaScript is s synchronous, single-threaded language. This means that code cann
 
 [ES6 Compatibilty Table](https://compat-table.github.io/compat-table/es6/)
 
+## Modules 
+
+[Modules](/modules/ReadMe.md)
